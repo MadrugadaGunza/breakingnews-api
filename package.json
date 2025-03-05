@@ -1,0 +1,29 @@
+{
+  "name": "breakingnews-api",
+  "version": "1.0.0",
+  "description": "API para site/blog de notícias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadrugadaGunza/breakingnews-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MadrugadaGunza/breakingnews-api/issues"
+  },
+  "homepage": "https://github.com/MadrugadaGunza/breakingnews-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}
