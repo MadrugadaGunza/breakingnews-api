@@ -1,9 +1,9 @@
 import { Router } from "express";
+import { createUser, findAllUser } from "../controllers/userRouter.js";
 
 const router = Router();
 
-router.get('/', async (req, res) => {
-    res.status(200).send({ message: 'ok user' });
-});
+router.post('/', createUser);
+router.get('/', findAllUser);
 
 export default router;
